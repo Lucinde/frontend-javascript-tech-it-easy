@@ -18,3 +18,6 @@ function brandTv(tvobjects) {
 }
 
 console.log(brandTv(inventory));
+
+const brands = document.getElementById("brands-tv");
+brands.innerHTML = `${brandTv(inventory)}`;
