@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sold-tv {
+    color: green;
+}
+
+#original-stock-tv {
+    color: darkblue;
+}
+
+#sell-tv {
+    color: red;
+}
+
+header,
+main {
+    margin: 25px 0;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inner-container {
+    flex-basis: 1200px;
+    margin: 0 20px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: darkgrey;
+    margin: 25px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    gap: 25px;
+    width: 100%;
+    background-color: lightgrey;
+}
