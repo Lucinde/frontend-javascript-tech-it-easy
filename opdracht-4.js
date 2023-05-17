@@ -66,8 +66,8 @@ singleTV.innerHTML = `${getTV(inventory[4])}`;
 
 function listTV(tvobjects) {
     return inventory.map((tvinfo) => {
-       return  `${nameTV(tvinfo)} <br> ${priceTV(tvinfo)} <br> ${screensizeTV(tvinfo)} <br>`;
-    }).join('<br>');
+       return  `${nameTV(tvinfo)} <br/> ${priceTV(tvinfo)} <br/> ${screensizeTV(tvinfo)} <br/>`;
+    }).join('<br/>');
 }
 
 const allTV = document.getElementById("all-tv");
